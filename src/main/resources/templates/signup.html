@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<title>User Signup</title>
+</head>
+<body>
+	<section>
+		<h3>SIGNUP:</h3>
+		
+		<div>
+		  <form action="" style="border:1px solid #ccc">
+			  <div class="container">
+			    <p>Please fill in this form to create an account.</p>
+			    <hr>
+			    
+			    <label for="username"><b>User name</b></label>
+			    <input type="text" placeholder="Enter username" name="username" required>
+			
+			    <label for="email"><b>Email</b></label>
+			    <input type="email" placeholder="Enter Email" name="email" required>
+			
+			    <label for="password"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="password" required>
+			
+			    <label for="address"><b>Address</b></label>
+			    <input type="text" placeholder="Enter your address" name="address">
+			    
+			    <label for="contact"><b>Contact</b></label>
+			    <input type="text" placeholder="Enter your 10 digit Phone number" name="contact">
+			
+			    <div>
+			      <button type="submit" class="signupbtn">Sign Up</button>
+			    </div>
+			  </div>
+			</form>	
+		</div>
+			
+	</section>
+
+	<h4>Test user signup</h4>
+</body>
+</html>

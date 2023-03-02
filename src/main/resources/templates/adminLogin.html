@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<title>Admin Login</title>
+</head>
+<body>
+	<section>
+		<h3>ADMIN LOGIN:</h3>
+		
+		<div>
+		  <form action="" style="border:1px solid #ccc">
+			  <div class="container">
+			    <p>Please fill in this form to login</p>
+			    <hr>
+			    
+			    <label for="username"><b>User name</b></label>
+			    <input type="text" placeholder="Enter username" name="username" required>
+			
+			    <label for="password"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="password" required>
+			
+			    <div>
+			      <button type="submit" class="signupbtn">LOGIN</button>
+			    </div>
+			  </div>
+			</form>	
+		</div>	
+	</section>
+
+	<h3>Testing Admin login Controller</h3>
+</body>
+</html>
