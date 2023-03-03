@@ -10,13 +10,17 @@
 		<h3>SIGNUP:</h3>
 		
 		<div>
-		  <form action="" style="border:1px solid #ccc">
+		
+		  <form action="createUser" method="POST" style="border:1px solid #ccc">
 			  <div class="container">
 			    <p>Please fill in this form to create an account.</p>
 			    <hr>
 			    
 			    <label for="username"><b>User name</b></label>
 			    <input type="text" placeholder="Enter username" name="username" required>
+			    
+			    <label for="member_name"><b>Name</b></label>
+			    <input type="text" placeholder="Enter your full name" name="member_name" required>
 			
 			    <label for="email"><b>Email</b></label>
 			    <input type="email" placeholder="Enter Email" name="email" required>
